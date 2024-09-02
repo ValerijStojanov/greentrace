@@ -114,6 +114,8 @@ body {
   height: 100vh;
   overflow: scroll;
   z-index: 99;
+  flex-direction: column;
+  justify-content: center;
   background: #102621c7;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
