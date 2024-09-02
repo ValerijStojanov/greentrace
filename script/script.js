@@ -1,45 +1,45 @@
-$(document).ready(function () {
-  $(".slider-usp").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    dots: true,
-    arrows: true,
-    prevArrow: $('.custom-prev'), 
-    nextArrow: $('.custom-next'),
-    variableWidth: true,
-  });
+// $(document).ready(function () {
+//   $(".slider-usp").slick({
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//     dots: true,
+//     arrows: true,
+//     prevArrow: $('.custom-prev'), 
+//     nextArrow: $('.custom-next'),
+//     variableWidth: true,
+//   });
   
-});
+// });
 
-$(document).ready(function () {
-    var $slider = $(".slider-usp");
+// $(document).ready(function () {
+//     var $slider = $(".slider-usp");
   
-    function initSlider() {
-      if ($(window).width() >= 768) {
-        if (!$slider.hasClass('slick-initialized')) {
-          $slider.slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: true,
-            arrows: true,
-            prevArrow: $('.custom-prev'),
-            nextArrow: $('.custom-next'),
-            variableWidth: true,
-          });
-        }
-      } else {
-        if ($slider.hasClass('slick-initialized')) {
-          $slider.slick('unslick');
-        }
-      }
-    }
+//     function initSlider() {
+//       if ($(window).width() >= 768) {
+//         if (!$slider.hasClass('slick-initialized')) {
+//           $slider.slick({
+//             slidesToShow: 1,
+//             slidesToScroll: 1,
+//             dots: true,
+//             arrows: true,
+//             prevArrow: $('.custom-prev'),
+//             nextArrow: $('.custom-next'),
+//             variableWidth: true,
+//           });
+//         }
+//       } else {
+//         if ($slider.hasClass('slick-initialized')) {
+//           $slider.slick('unslick');
+//         }
+//       }
+//     }
   
-    initSlider();
+//     initSlider();
   
-    $(window).on('resize', function () {
-      initSlider();
-    });
-  });
+//     $(window).on('resize', function () {
+//       initSlider();
+//     });
+//   });
   
 
 
