@@ -437,9 +437,14 @@ footer #copy {
     width: 100% !important;
   }
 
-  .numbers .right-side .fourth {
+  .numbers .right-side .fourth, .second {
     align-items: start !important;
   }
+
+  .numbers .right-side .second {
+    align-items: start !important;
+  }
+
   .numbers h1 {
     font-size: 3rem !important;
   }
