@@ -129,7 +129,8 @@ body {
 }
 
 #menu li {
-  font-size: 1rem;
+  font-weight: bold;
+  font-size: 1.3rem;
   text-align: center;
   color: white;
   border-bottom: 1px solid white;
