@@ -64,7 +64,7 @@ body {
   }
 
   .main-top h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     width: 100%;
   }
 }
@@ -365,6 +365,9 @@ footer #copy {
     text-align: center;
     padding: 0 !important;
   }
+  .calculations .title h1 {
+    width: 100%;
+  }
   
   .main-text-fields .w-50{
     width: 0 !important;
@@ -409,6 +412,7 @@ footer #copy {
 
   .cards-top-texts h1 {
     font-size: 2rem;
+    width: 100%;
   }
 
   .cards .cards {
@@ -418,6 +422,7 @@ footer #copy {
   .cards-top-texts .w-50 {
     width: 100% !important;
   }
+  
 
   .slider-usp {
     position: relative;
@@ -437,7 +442,11 @@ footer #copy {
   }
 
   footer .form_email {
-    width: 18rem !important;
+    width: 100% !important;
+  }
+
+  .form_container form {
+    flex-direction: column;
   }
 
   .form_container .form_email::placeholder  {
