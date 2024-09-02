@@ -113,6 +113,7 @@ body {
   padding: 50px;
   height: 100vh;
   overflow: scroll;
+  z-index: 99;
   background: #102621c7;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;

@@ -45,7 +45,7 @@ $(document).ready(function () {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  const body = document.querySelector("body");
+  const html = document.querySelector("html");
   const BurgerMenuButton = document.querySelector("#BurgerMenuButton");
   const checkbox = document.querySelector("#checkbox");
   const toggleImage = document.querySelector("#toggleImage");
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
     checkbox.click();
 
     if (menuOpen) {
-      body.classList.remove("menu-open");
+      html.classList.remove("menu-open");
       BurgerMenuButton.classList.remove("menu-open");
       BurgerMenuButton.classList.add("menu-closed");
 
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
       toggleImage.classList.remove("fade-out");
       toggleImage.classList.add("fade-in");
     } else {
-      body.classList.add("menu-open");
+      html.classList.add("menu-open");
       BurgerMenuButton.classList.remove("menu-closed");
       BurgerMenuButton.classList.add("menu-open");
 
