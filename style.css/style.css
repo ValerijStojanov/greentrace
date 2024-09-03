@@ -230,7 +230,7 @@ body {
 
 .slider-usp .card {
   border: none !important;
-  /* padding: 1.5rem; */
+
   display: inline-flex !important;
   align-items: center !important;
 }
@@ -247,7 +247,6 @@ body {
 }
 
 .card .content-container {
-  /* box-shadow: 0px 0px 7px 0px rgba(179, 179, 179, 1); */
   border: 0.5px solid rgb(94, 94, 94);
   width: 50%;
   display: flex;
@@ -317,12 +316,6 @@ body {
   float: right;
 }
 
-/* .slider-usp {
-  position: relative;
-  max-width: 600px;
-  margin: 0 auto;
-} */
-
 .slider-content .card-top-content .title {
   color: black;
   margin: 0;
@@ -344,9 +337,6 @@ body {
   transform: scale(1.5);
 }
 
-.slick-dots li button:before {
-  /* color: black !important; */
-}
 
 .slick-dots li {
   position: relative;
@@ -487,22 +477,6 @@ footer #copy {
   .card-top-content {
     align-self: flex-start;
   }
-  /* .slider-usp {
-    position: relative;
-    max-width: 200px;
-    margin: 0 auto;
-  } */
-
-  /* .slider-usp .card {
-    margin: 1.5rem 0rem 1.5rem 0rem;
-  } */
-  /* .slick-slide {
-    width: 600px !important;
-    height: 200px !important;
-    margin-left: 3rem;
-    margin-right: 3rem;
-  } */
-
   footer .form_email {
     width: 100% !important;
   }
