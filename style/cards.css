@@ -1,0 +1,53 @@
+.card img {
+    object-fit: contain;
+    width: 4.5rem;
+  }
+  
+  .card h3 {
+    color: #82c9e6;
+  }
+  
+  .card .content-container {
+    border: 0.5px solid #5e5e5e;
+    width: 50%;
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 1.5rem !important;
+  }
+  
+  .numbers .card {
+    width: 20rem;
+    box-shadow: 3px 3px 5px 0px rgba(95, 159, 185, 1) !important;
+  }
+  
+  .slider-usp .card {
+    border: none !important;
+    display: inline-flex !important;
+    align-items: center !important;
+  }
+
+  
+  .slick-slide {
+    width: 600px !important;
+    height: 300px !important;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #5db74a !important;
+    transform: scale(1.5);
+  }
+  
+  .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px !important;
+    height: 20px;
+    margin: 0 -5px !important;
+    padding: 0;
+    cursor: pointer;
+  }
+  

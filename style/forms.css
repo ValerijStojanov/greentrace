@@ -1,0 +1,32 @@
+.form_container .form_email {
+    background-color: white;
+    color: red;
+    width: 25rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px !important;
+    font-family: var(--lato);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form_container .form_email::placeholder {
+    color: #66bb6a;
+  }
+  
+  .form_container .button-submit {
+    background-color: #5db74a;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px !important;
+    font-weight: bold;
+    font-family: var(--lato);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form_container .button-submit:hover {
+    background-color: #66bb6a;
+  }
+  

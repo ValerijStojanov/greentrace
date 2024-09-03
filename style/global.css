@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--poppins);
+    position: relative;
+  }
+  
+  .main {
+    background-color: #f0f0f0;
+  }
+  
+  .main-text-fields {
+    margin: 5rem 0rem 10rem 0rem;
+  }
+  
+  .main-text-fields p {
+    font-size: 1.5rem;
+  }
+  

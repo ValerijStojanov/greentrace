@@ -1,0 +1,22 @@
+footer {
+  background-color: #112220;
+}
+
+footer h1 {
+  color: #5db74a;
+  font-size: 3rem;
+  font-family: var(--poppins);
+}
+
+footer p {
+  color: #f0f0f0;
+  font-size: 1.2rem;
+  font-family: var(--lato);
+}
+
+footer #copy {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 3.5rem;
+  font-family: var(--lato);
+}

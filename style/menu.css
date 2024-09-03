@@ -1,0 +1,74 @@
+#BurgerMenuButton {
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9999;
+    right: 0;
+    top: 0;
+    height: auto;
+  }
+  
+  #BurgerMenuButton img {
+    width: 1.5rem;
+  }
+  
+  #menuToggle {
+    position: absolute;
+    width: 100%;
+    top: 0;
+  }
+  
+  #menuToggle a {
+    text-decoration: none;
+    color: #232323;
+    transition: color 0.3s ease;
+  }
+  
+  #menuToggle a:hover {
+    color: tomato;
+  }
+  
+  #menuToggle input {
+    display: none;
+  }
+  
+  #menuToggle input:checked ~ ul {
+    transform: none;
+  }
+  
+  #menu {
+    position: fixed;
+    width: 100%;
+    padding: 50px;
+    height: 100vh;
+    overflow: scroll;
+    z-index: 99;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    background: #102621f0;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  }
+  
+  #menu li {
+    font-family: var(--poppins);
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 1rem 0rem 1rem 0rem;
+  }
+  
+  .menu-open {
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  #toggleImage {
+    transition: opacity 0.3s ease;
+  }
+  

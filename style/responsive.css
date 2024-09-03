@@ -1,0 +1,172 @@
+@media (max-width: 767px) {
+  .nav {
+    display: none !important;
+  }
+
+  .main {
+    padding: 5rem 0rem 0rem 0rem !important;
+  }
+
+  .main-top p {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .main-top h1 {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+
+}
+
+@media (min-width: 768px) {
+  #menuToggle {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .main h1 {
+    text-align: center;
+    padding: 0 !important;
+  }
+
+  .calculations .title h1 {
+    width: 100%;
+  }
+
+  .main-text-fields .w-50 {
+    width: 0 !important;
+  }
+
+  .main-text-fields .right-side {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .font-mask {
+    width: 15rem;
+  }
+
+  .numbers .left-side {
+    width: 100%;
+  }
+
+  .numbers .right-side {
+    width: 100% !important;
+  }
+
+  .numbers .right-side .fourth {
+    align-items: start !important;
+  }
+
+  .numbers .right-side .second {
+    align-items: start !important;
+  }
+
+  .numbers h1 {
+    font-size: 3rem !important;
+  }
+
+  .numbers h3 {
+    font-size: 3rem !important;
+  }
+
+  .numbers p {
+    font-size: 1rem !important;
+    width: 100% !important;
+    word-wrap: break-word;
+  }
+
+  .second {
+    align-items: start !important;
+  }
+
+  .cards-top-texts {
+    flex-direction: column;
+  }
+
+  .cards-top-texts h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .cards-top-texts .w-50 {
+    width: 100% !important;
+  }
+
+  .cards .cards {
+    justify-content: center !important;
+    flex-direction: column;
+  }
+
+  .slider-usp .card .content-container {
+    width: 100%;
+  }
+
+  .card-top-content {
+    align-self: flex-start;
+  }
+
+  footer .form_email {
+    width: 100% !important;
+  }
+
+  .form_container form {
+    flex-direction: column;
+  }
+
+  .form_container .form_email::placeholder {
+    text-align: center;
+  }
+
+
+  .custom_buttons {
+    position: absolute;
+    bottom: -2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .custom-prev {
+    position: static;
+    background: transparent;
+    z-index: 999;
+  }
+
+  .custom-prev img {
+    width: .7rem;
+  }
+
+  .custom-next {
+    position: static;
+    background: transparent;
+    z-index: 999;
+  }
+
+  .custom-next img {
+    width: .7rem;
+  }
+
+  .card .content-container {
+    height: 400px;
+    padding: 2rem 1.5rem !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card .content-container .card-title {
+    gap: 1rem;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .font-mask {
+    width: 80%;
+  }
+}

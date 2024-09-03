@@ -1,0 +1,65 @@
+.button,
+.form_container .button-submit {
+  background-color: #5db74a;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px !important;
+  font-weight: bold;
+  font-family: var(--lato);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover,
+.form_container .button-submit:hover {
+  background-color: #57a05c;
+}
+
+.custom-prev,
+.custom-next {
+  background-color: white;
+  margin: 0;
+  padding: 0rem 2rem;
+  position: absolute;
+  z-index: 1;
+  border: none;
+  cursor: pointer;
+  height: 100%;
+}
+
+.custom-prev {
+  top: 0;
+  left: 0%;
+  float: left;
+}
+
+.custom-next {
+  top: 0;
+  right: 0%;
+  float: right;
+}
+
+.tns-nav {
+    position: absolute;
+    z-index: 1;
+    bottom: -2rem;
+    width: 100%;
+    text-align: center;
+  }
+  .tns-nav button {
+    background-color: black;
+    border-radius: 50%;
+    padding: 2px;
+    border: none;
+    margin: 0.5rem;
+  }
+  .tns-nav .tns-nav-active {
+    background-color: #5db74a;
+    padding: 3px;
+  }
+
+  .tns-controls {
+    display: none;
+  }
+

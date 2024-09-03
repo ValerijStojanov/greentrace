@@ -1,0 +1,79 @@
+.main {
+    background-color: #f0f0f0;
+    padding: 5rem;
+  }
+  
+  .main-text-fields {
+    margin: 5rem 0rem 0rem 0rem;
+  }
+  
+  .main-text-fields p {
+    font-size: 1.5rem;
+    margin-bottom: 7rem;
+  }
+  
+  .font-mask {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .calculations {
+    background-color: #112220;
+    color: #f0f0f0;
+    font-family: var(--poppins);
+  }
+  
+  .calculations title {
+    font-size: 3.125rem;
+  }
+  
+  .calculations .title h1 {
+    width: 60%;
+  }
+  
+  .numbers .right-side {
+    width: 100%;
+  }
+  
+  .numbers .right-side h3 {
+    font-size: 6rem;
+    color: #5db74a;
+  }
+  
+  .numbers .right-side p {
+    width: 25rem;
+    font-size: 1.5rem;
+  }
+  
+  .numbers .left-side h1 {
+    font-size: 10rem;
+    color: #5db74a;
+  }
+  
+  .numbers .left-side p {
+    width: 450px;
+    font-size: 1.5rem;
+  }
+  
+  .cards {
+    background-color: #82c9e6;
+  }
+  
+  .cards-top-texts {
+    color: #f0f0f0;
+  }
+  
+  .cards-top-texts p {
+    font-size: 1.5rem;
+  }
+  
+  .cards-top-texts h1 {
+    font-size: 3rem;
+    width: 50%;
+  }
+  
+  .slider {
+    background-color: #f0f0f0;
+  }
+  

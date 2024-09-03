@@ -1,0 +1,28 @@
+.logo img {
+    width: 66px !important;
+    height: 74px !important;
+  }
+  
+  .top {
+    background-image: url("/source/images/stacey-koenitz-kSY5T6js2KE-unsplash 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5rem;
+  }
+  
+  .main-top {
+    margin-top: 7rem;
+  }
+  
+  .main-top h1 {
+    font-size: 5rem;
+    width: 40rem;
+    font-weight: bold;
+  }
+  
+  .main-top p {
+    font-family: var(--lato);
+    font-size: 24px;
+    width: 26.6rem;
+  }
+  
