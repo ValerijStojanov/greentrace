@@ -245,8 +245,8 @@ body {
   right: 0%;
   float: right;
 }
-.slider-content .card-top-content .title {
-  color: black;
+.slider-content .card-title .card-top-content .title {
+  color: black !important;
   margin: 0;
 }
 .slider-content .card-top-content .subtitle {

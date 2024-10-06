@@ -37,6 +37,22 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+    document.getElementById("AboutUsMenu").onclick = function() {
+        document.getElementById("AboutUs").scrollIntoView({ behavior: 'smooth' });
+    };
+    document.getElementById("ImpactMenu").onclick = function() {
+        document.getElementById("Impact").scrollIntoView({ behavior: 'smooth' });
+    };
+    document.getElementById("SolutionsMenu").onclick = function() {
+        document.getElementById("Solutions").scrollIntoView({ behavior: 'smooth' });
+    };
+    document.getElementById("MilestonesUsMenu").onclick = function() {
+        document.getElementById("Milestones").scrollIntoView({ behavior: 'smooth' });
+    };
+    document.getElementById("ContactUsButton").onclick = function() {
+      document.getElementById("ContactUs").scrollIntoView({ behavior: 'smooth' });
+  };
+
 // // Функция для плавного скроллинга
 // function scrollToElement(elementId) {
 //   const element = document.getElementById(elementId);
