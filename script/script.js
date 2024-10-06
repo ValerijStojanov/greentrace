@@ -36,3 +36,24 @@ document.addEventListener("DOMContentLoaded", function () {
     menuOpen = !menuOpen;
   });
 });
+
+// // Функция для плавного скроллинга
+// function scrollToElement(elementId) {
+//   const element = document.getElementById(elementId);
+//   if (element) {
+//     element.scrollIntoView({ behavior: 'smooth' });
+//   }
+// }
+
+// // Назначаем события click на элементы
+// document.getElementById('about-us').addEventListener('click', function() {
+//   scrollToElement('about-us');
+// });
+
+// document.getElementById('Impact').addEventListener('click', function() {
+//   scrollToElement('Impact');
+// });
+
+// document.getElementById('Solutions-menu').addEventListener('click', function() {
+//   scrollToElement('Solutions');
+// });
