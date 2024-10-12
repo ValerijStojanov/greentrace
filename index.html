@@ -77,8 +77,14 @@
             <li id="MilestonesUsMenu" style="cursor: pointer" class="nav-item">
               Milestones
             </li>
-            <a id="ContactUsButton" style="pointer-events: none" class="text-decoration-none text-light" href="/"
-              ><button id="ContactUsButton" class="button">Contact Us</button></a
+            <a
+              id="ContactUsButton"
+              style="pointer-events: none"
+              class="text-decoration-none text-light"
+              href="/"
+              ><button id="ContactUsButton" class="button">
+                Contact Us
+              </button></a
             >
           </ul>
         </nav>
@@ -88,7 +94,7 @@
         <div id="menuToggle">
           <input id="checkbox" type="checkbox" />
 
-          <button id="BurgerMenuButton">
+          <button id="BurgerMenuButton" class="menu-closed">
             <img
               id="toggleImage"
               src="source/images/burger-menu-svgrepo-com.svg"
@@ -96,11 +102,11 @@
             />
           </button>
           <ul id="menu">
-            <li id="AboutUsMenu" class="nav-item">About Us</li>
-            <li class="nav-item">Impact</li>
-            <li id="Solutions-menu" class="nav-item">Solutions</li>
-            <li id="Milestones-menu" class="nav-item">Milestones</li>
-            <li id="Contact-us-menu" class="nav-item">Contact Us</li>
+            <li id="AboutUsMenuBurger" class="nav-item">About Us</li>
+            <li id="ImpactMenuBurger" class="nav-item">Impact</li>
+            <li id="SolutionsMenuBurger" class="nav-item">Solutions</li>
+            <li id="MilestonesUsMenuBurger" class="nav-item">Milestones</li>
+            <li id="ContactUsButtonBurger" class="nav-item">Contact Us</li>
           </ul>
         </div>
       </nav>
@@ -111,9 +117,9 @@
           transparency and accuracy in emissions reporting.
         </p>
         <h1 class="text-uppercase">making sustainability visible</h1>
-        <a class="text-decoration-none text-light" href="/"
-          ><button class="button">Learn more</button></a
-        >
+        <button id="LearnMoreButton" class="button text-light">
+          Learn more
+        </button>
       </div>
     </div>
 
